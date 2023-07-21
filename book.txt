@@ -1,0 +1,5 @@
+exception notes :
+file handling :
+
+
+r - open and existing file for READ operation
