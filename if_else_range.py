@@ -3,7 +3,7 @@
 #         print("Now you are at 7")
 #         break
 #     print(i)
-
+# -----------------------------------------
 # cart = [10,20,500,600,70,40]
 # for items in cart:
 #     if items>500:
@@ -11,13 +11,16 @@
 #         break
 #     print(items)
 
+# --------------------------------------------
 # cart = [10,20,500,600,70,40]
 # for items in cart:
 #     if items>499:
 #         print("You need permission to place order")
 #         continue
 #     print(items)
+#
 
+# 0-----------------------------------------------
 #wap to print odd numbers i the range od 0-9 using continue
 #
 # for i in range(10):
@@ -35,14 +38,14 @@
 #     for j in range(i+1):
 #         print("*" , end="")
 #     print()
-
+# -------------------------------
 # n=int(input("enter the value "))
 # for i in range(1,n):
 #     for j in range(i):
 #         print("*" ,end="")
 #     print()
 
-
+# ----------------------------
 # n=int(input("enter the value "))
 # for i in range(n):
 #     for l in range(1,n-i):

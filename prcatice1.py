@@ -35,16 +35,17 @@
 # print(a,b,c,d)
 # z=x+y
 #
-# eval--------------
+# eval-------------------------------------
 # z=eval("10+2+30")
 # print(z)
 
+# ------------------------------------------
 # write a program which excepts
 # 2 no
 #  and then no are 10.2 7.8  perform addition substration mult u have to take input from user
 
 
-# ---------------
+# -------------------------------------------
 # conditional statment if Else
 
 # if else program
@@ -63,11 +64,6 @@
 #     print("Retired")
 
 
-
-#
-#
-#
-#
 # --------------------------------------
 #  Even Odd Program
 # x= int(input("Enter Number : "))
@@ -104,7 +100,7 @@
 #     mul = x*i
 #     print( x , "*"  , i  ," = " ,mul )
 
-# ---------------------------------
+# ---------------------------------------------------
 # write a program to display the sum of n number
 
 # n=int(input("enter the number multiple of : "))
@@ -116,7 +112,7 @@
 #      i=i+1
 # print(sum)
 
-# ----------------
+# -----------------------------------------------------------
 # n = str(input("type mayur sir is best other wise u will fail : "))
 # x="mayur sir is best"
 # while n!=x:
@@ -124,7 +120,7 @@
 # print("thanks for confirmation")
 #
 
-# ---------------------------
+# ------------------------------------------------------
 # fibonacce using function
 # a=int(input("Enter your number : "))
 # def fibo(t):
@@ -137,7 +133,7 @@
 # fibo(a)
 
 
-# ---------------------------
+# --------------------------------------------
 # pkdv
 # postional argument
 # keyword Arguments
@@ -152,7 +148,7 @@
 # variable length argument
 # def cal(*n):
 
-# -----------------------
+# ------------------------------------------------------
 # square root program
 
 # def sqr(n):

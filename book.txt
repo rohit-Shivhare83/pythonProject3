@@ -12,4 +12,9 @@ a+ - to append read data from file
 x = to open file  in exclusive creation mode for write operation
 
 
-note = all above moodes are applicable for text
+note = all above modes are applicable for text
+
+mode  - mode in whiche file is open
+closed - return boolean value indicates
+readable - return boolean value ndicates that wheather files is readable or not
+writable - return insaicate writable or not
