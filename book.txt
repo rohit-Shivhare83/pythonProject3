@@ -3,3 +3,13 @@ file handling :
 
 
 r - open and existing file for READ operation
+w - write operation to open and exiting file
+a - append opertaion
+r+ - to read and write the data into file
+w+ - write and read
+a+ - to append read data from file
+
+x = to open file  in exclusive creation mode for write operation
+
+
+note = all above moodes are applicable for text
