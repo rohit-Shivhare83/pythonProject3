@@ -132,30 +132,33 @@
 #     print("finally")
 
 # -----------------------------------------------------
-# write a program which axcepts age from the user if the user age is less than
+# write a program which accepts age from the user if the user age is less than
 # 18 print a msg u r to ypung if age is between 19 to 35 u r elligeble
 # id age is 36  to 60 u r mature dont need the application and if the age is
 # grater than 60 u r to old enjoy the life
 # if the error is occurs handle that error after executing the complete program user
 # should compulsory get msg
 # thank you have a nice day
+#
+# try:
+#     age = int(input("enter the age"))
+#     if(age<1):
+#         print("invalid age")
+#     elif(age<18 & age>0):
+#         print("you are to young")
+#     elif(age > 18 & age<35):
+#         print("you are elligeable")
+#     elif (age > 35 & age < 60):
+#         print ("You are mature")
+#     else:
+#         print("you are to old enjoy your life")
+#
+# except NameError:
+#     print("Enter proper age name error")
+# except ValueError:
+#     print("Enter proper age")
+# finally:
+#     print(" finally = > Thank you have a nice day")
 
-try:
-    age = int(input("enter the age"))
-    if(age<1):
-        print("invalid age")
-    elif(age<18 & age>0):
-        print("you are to young")
-    elif(age > 18 & age<35):
-        print("you are elligeable")
-    elif (age > 35 & age < 60):
-        print ("You are mature")
-    else:
-        print("you are to old enjoy your life")
+# ------------------------------------------------------------------
 
-except NameError:
-    print("Enter proper age name error")
-except ValueError:
-    print("Enter proper age")
-finally:
-    print(" finally = > Thank you have a nice day")
