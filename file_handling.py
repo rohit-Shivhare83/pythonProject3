@@ -96,7 +96,97 @@
 # for i in lines:
 #     print(i , end=" ")
 # f.close()
-# print("cheking if my files close or not ? " , f.closed)
+# print("checking if my files close or not ? " , f.closed)
+
+# -----------------------------------------------------------------------
+
+# using with and as -
+# if we use with we don't need to close the file
+
+# with open("C://Users/admin/Desktop/write.txt","w") as f:
+#     f.write("Hello My Name Is Rohit\n")
+#     f.write("My Surname Is Shivhare")
+#
+# print("checking wheather the file is close or not  - ",f.closed)
+
+# ----------------------------------------------------------------------
+# tell function - it shows the position of our cursor pointer
+# read
+# with open("C://Users/admin/Desktop/write.txt","r") as f:
+#     print(f.read())
+#     # print(f.readline(5))
+#
+#     print(f.tell())
+# ----------------------------------------------------------------------
+# seek function - it will take our cursor to a particullar position
+# using write
+# data = "Rohit Is Great"
+# f= open("C://Users/admin/Desktop/write.txt" , "w")
+# f.write(data)
+# print("cursor is at - " , f.tell())
+# with open("C://Users/admin/Desktop/write.txt","r+") as f:
+#     print("cursor is at : ", f.tell())
+#     f.seek(15)
+#     f.write("Person")
+#     print(f.tell())
+#     print(f.read())
+#     f.seek(0)
+#     # print(f.tell())
+#     # f.write("Hello")
+#     # print(f.readline())
+
+# -------------------------------------------------------------------
+# check wheather file is exist or not
+# import os ,sys
+# fName = input("Enter file Name : - ")
+# if os.path.isfile(fName):
+#     print("File is Exist " , fName)
+# else:
+#     print(fName,"Does NOt Exist")
+#     sys.exit()
+
+# ----------------------------------------------
+
+# read the file if exist
+# import os ,sys
+# fName = input("Enter file Name : - ")
+# if os.path.isfile(fName):
+#     print("File is Exist " , fName)
+#     f = open(fName , "r")
+# else:
+#     print(fName,"Does NOt Exist")
+#     sys.exit()
+#
+# print("reading now")
+# print(f.read())
+
+# ------------------------------------------------------------
+import csv
+with open("emp.csv ", "w") as f:
+    w = csv.writer(f)
+    w.writerow(["id" , "phone" , "name" , "salary"])
+    n  = int(input("Enter nomber of employess"))
+    for i in range(n):
+        empid  = input("enter id")
+        empphone  = input("enter phone ")
+        empname  = input("enter name")
+        empsalary  = input("enter salary")
+        w.writerow([empid,empphone,empname,empsalary])
+
+print("everything is succesful")
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # ----------------------------------------------------------------------
@@ -111,7 +201,7 @@
 # close()
 # closed
 
-
-
+# seek
+# tell
 
 
