@@ -161,32 +161,19 @@
 # print(f.read())
 
 # ------------------------------------------------------------
-import csv
-with open("emp.csv ", "w") as f:
-    w = csv.writer(f)
-    w.writerow(["id" , "phone" , "name" , "salary"])
-    n  = int(input("Enter nomber of employess"))
-    for i in range(n):
-        empid  = input("enter id")
-        empphone  = input("enter phone ")
-        empname  = input("enter name")
-        empsalary  = input("enter salary")
-        w.writerow([empid,empphone,empname,empsalary])
-
-print("everything is succesful")
-
-
-
-
-
-
-
-
-
-
-
-
-
+# import csv
+# with open("emp.csv ", "w") as f:
+#     w = csv.writer(f)
+#     w.writerow(["id" , "phone" , "name" , "salary"])
+#     n  = int(input("Enter nomber of employess"))
+#     for i in range(n):
+#         emp_id  = input("enter id")
+#         emp_phone  = input("enter phone ")
+#         emp_name  = input("enter name")
+#         emp_salary  = input("enter salary")
+#         w.writerow([emp_id,emp_phone,emp_name,emp_salary])
+#
+# print("everything is succesful")
 
 
 # ----------------------------------------------------------------------
@@ -205,3 +192,12 @@ print("everything is succesful")
 # tell
 
 
+# --------------------------------------------------
+# file handling test practices
+# read file word by word
+
+# with open("C://Users/admin/Desktop/write.txt", "r") as f:
+#     for line in f:
+#         for word in line.split(" "):
+#             print(word)
+# ----------------------------------------------------

@@ -1,0 +1,22 @@
+[abc] - either a b or c
+[^abc] - aexept a and b and c
+[a-z] - any lower case alphabet character
+[A-Z] - any uper case alphabet
+[^a-zA-Z0-9] - except alphanumeriacl character (special character)
+[a-zA-Z0-9] -any alphanumerical charcater
+
+\s - space character
+\S - space Char
+\d - any digit from 0-9
+\D  - any char except digit
+\w - any word char [a-zA-Z0-9]
+\W - any char except word char (special Char)
+. - any char including specail char
+
+Quantifiers
+ a - exactly one
+ a+ - atleast one
+ a* - any num of a's including xero num
+ a? - atmost one either zero num or 1 num
+ a{m} - exactly m number of a's
+ a{m,n} - min n number of a's and max n num of a's

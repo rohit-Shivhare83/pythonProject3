@@ -1,0 +1,16 @@
+
+connection string - connect username/password@hostname:port/SERVICENAME
+
+
+
+
+
+
+
+
+
+
+
+
+
+
