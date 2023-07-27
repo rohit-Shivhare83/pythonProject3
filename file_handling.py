@@ -22,7 +22,7 @@
 # print("closed -  ? - ",f.closed)
 # f.close()
 # print("closed -  ? - ",f.closed)
-#
+
 
 # --------------------------------------------------------------------------
 
@@ -181,9 +181,11 @@
 # readlines()
 # readline()
 # read(n)
+# readable()
 
 # write()
 # writlines()
+# writable()
 
 # close()
 # closed
@@ -201,3 +203,52 @@
 #         for word in line.split(" "):
 #             print(word)
 # ----------------------------------------------------
+# f = open("abc.txt" , "r")
+# print(f.read())
+# f.close()
+# ------------------------------------------------
+
+
+
+
+
+
+
+
+
+# f = open("shikha.txt", "a")
+# f.write("shikha")
+# # print(f.read())
+#
+# f.close()
+
+
+# f = open("shikha.txt","w")
+# f.write("shikha")
+# f.close()
+# print("is it close?",f.closed)
+#
+# #
+
+# -----------------------
+
+
+
+
+f = open("shikha.txt","w")
+f.write("Rohit")
+print(f.readable())
+print(f.writable())
+f.close()
+print("is it is close?",f.closed)
+
+
+
+
+
+
+
+
+
+
+
