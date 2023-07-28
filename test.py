@@ -13,7 +13,7 @@
 # 2  reverse string
 # l = "rohit"
 # print(l[::-1])
-
+#
 # def rever_string(str):
 #     string = ""
 #     n = len(str)

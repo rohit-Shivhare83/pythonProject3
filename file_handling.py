@@ -213,9 +213,6 @@
 
 
 
-
-
-
 # f = open("shikha.txt", "a")
 # f.write("shikha")
 # # print(f.read())
@@ -227,20 +224,20 @@
 # f.write("shikha")
 # f.close()
 # print("is it close?",f.closed)
-#
-# #
+
 
 # -----------------------
 
 
+# f = open("shikha.txt","w")
+# f.write("Rohit")
+# print(f.readable())
+# print(f.writable())
+# f.close()
+# print("is it is close?",f.closed)
 
 
-f = open("shikha.txt","w")
-f.write("Rohit")
-print(f.readable())
-print(f.writable())
-f.close()
-print("is it is close?",f.closed)
+
 
 
 
