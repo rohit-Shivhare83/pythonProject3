@@ -4,17 +4,21 @@
 # r+ - to read and write the data into file
 # w+ - write and read
 # a+ - to append read data from file
-#
 # x = to open file  in exclusive creation mode for write operation
 
 # note = all above modes are applicable for text
+
 # name - name the file
 # mode  - mode in which file is open
 # closed - return boolean value indicates
 # readable - return boolean value indicates that whether files is readable or not
 # writable - return indicator writable or not
 
+# note -  w means over writing the previous file again and again after running
+# note - Always Open And then Close the file
+
 # --------------------------------------------------------------------------------
+
 # f = open("abc.txt" , "w" )
 # print("name - " ,f.name)
 # print("readable ? -  ",f.readable())
@@ -26,8 +30,7 @@
 
 # --------------------------------------------------------------------------
 
-# note -  w means over riting the previous file again and again after running
-# note - Always Open And then Close the file
+
 
 # append
 
@@ -40,6 +43,7 @@
 
 
 # ----------------------------------------------------------------------
+
 # read files
 
 # f = open("abc.txt" , "r")
@@ -58,7 +62,8 @@
 # f.close()
 
 # ------------------------------------------------------------------
-# u can make  a file anywhere in your pc make sure u have proper path including the slashes //
+# u can make  a file anywhere in your pc make sure u have proper path including
+# the slashes //
 
 # f = open("C://Users/admin/Desktop/write.txt","w")
 # l = ("rohit" , "Pradeep")
@@ -118,12 +123,16 @@
 #
 #     print(f.tell())
 # ----------------------------------------------------------------------
+
 # seek function - it will take our cursor to a particullar position
 # using write
+
 # data = "Rohit Is Great"
+
 # f= open("C://Users/admin/Desktop/write.txt" , "w")
 # f.write(data)
 # print("cursor is at - " , f.tell())
+
 # with open("C://Users/admin/Desktop/write.txt","r+") as f:
 #     print("cursor is at : ", f.tell())
 #     f.seek(15)
@@ -161,7 +170,9 @@
 # print(f.read())
 
 # ------------------------------------------------------------
+
 # import csv
+
 # with open("emp.csv ", "w") as f:
 #     w = csv.writer(f)
 #     w.writerow(["id" , "phone" , "name" , "salary"])
@@ -213,7 +224,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # f = open("shikha.txt", "a")
+
 # f.write("shikha")
 # # print(f.read())
 #

@@ -24,10 +24,7 @@
 # # print(f.readline())
 # # print(f.readline())
 
-
 # f.close()
-
-
 
 # ----------------------------------------------
 # 3 - write a program to randomly select an element from the list
@@ -36,7 +33,6 @@
 # list = [1,2,3,4,5,7,8,9,10]
 # r = random.choice(list)
 # print(r)
-#
 
 
 # ---------------------------------------------------------
