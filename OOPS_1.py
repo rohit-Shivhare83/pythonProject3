@@ -184,7 +184,142 @@
 # e.display()
 
 
+
 # ============================================================
+
+
+#
+# class duck:
+#     def talk(self):
+#         print("quck quack")
+#
+# class cat:
+#     def talk(self):
+#         print("meow")
+#
+# class dog:
+#     def bark(self):
+#         print("dog")
+#
+# class goat:
+#     def talk(self):
+#         print("goat")
+#
+# def f1(obj):
+#     if hasattr(obj , "talk"):
+#         obj.talk()
+#     elif hasattr(obj , "bark"):
+#         obj.bark()
+#
+#
+#
+# l = [duck(),cat(),dog(),goat()]
+# for i in l:
+#     f1(i)
+#
+
+# =========================================================
+# overloading , overiding
+
+# class Book:
+#     def __init__(self , pages):
+#         self.pages = pages
+#
+# b1 = Book(12)
+# b2 = Book(3)
+#
+# print(b1+b2)   #gives u error TypeError
+
+# ============================
+# magic methods
+
+# class Book:
+#     def __init__(self , pages = 12):
+#         self.pages = pages
+#
+#     def __add__(self, other):
+#         c= self.pages+other
+#         return c
+#
+#     def __str__(self):
+#         return str(self.value)
+#
+#
+#
+#
+# a= Book()
+#
+# print(a +1+2)
+
+
+# overriding - same name different parameter
+# overloading - different name same parameter
+
+
+# ovrloading=========================================
+# class Book():
+#     def __init__(self , name ,marks):
+#         self.name = name
+#         self.marks = marks
+#
+#     def __gt__(self, other):
+#         return  self.marks>other.marks
+#
+#     def __le__(self, other):
+#         return self.name<=other.name
+#
+#
+# s1 = Book("rohit" , 100)
+# s2 = Book("pradeep" , 1)
+#
+# print("s1>s2==>" , s1>s2)
+# print("s2>s1==>" , s2>s1)
+
+# ===============================================
+# method overoading
+
+# class Student:
+#     def __init__(self):
+#         print("no arguments")
+#
+#     def m1(self,a):
+#         print("a = >")
+#
+#     def m2(self,a,b):
+#         print("a,b ===> ")
+#
+# s=Student()
+# # s.m1()
+#
+# s.m1(12)
+# s.m2(12 ,12)
+# # s.m1()
+#
+
+
+
+
+# ==================================
+class Test:
+    def sum(self , a=None , b=None , c=None ):
+        if a!=None and b!=None and c!=None:
+            print("a+b+c ===> " ,a+b+c)
+
+        elif a!=None and b!=None:
+            print("a+b ===> ", a + b)
+
+        else:
+            print("please povide more than 1 arguments")
+
+
+c= Test()
+c.sum(10,23,40)
+c.sum(10,2)
+c.sum(10)
+
+
+
+
 
 
 
